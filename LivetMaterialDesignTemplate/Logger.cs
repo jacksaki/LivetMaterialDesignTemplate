@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.conf", Watch = true)]
 namespace LivetMaterialDesignTemplate {
     public class Logger {
         private static string GetClassName(string path) {
