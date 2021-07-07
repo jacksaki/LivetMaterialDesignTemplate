@@ -1,0 +1,25 @@
+﻿<UserControl
+    x:Class="LivetMaterialDesignTemplate.Views.HomeView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:LivetMaterialDesignTemplate.Views"
+    xmlns:mahApps="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:v="clr-namespace:LivetMaterialDesignTemplate.Views"
+    xmlns:vm="clr-namespace:LivetMaterialDesignTemplate.ViewModels"
+    xmlns:wpf="http://materialdesigninxaml.net/winfx/xaml/themes"
+    d:DesignHeight="300"
+    d:DesignWidth="300"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility" />
+    </UserControl.Resources>
+    <Grid>
+        <TextBlock
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="32"
+            Text="Home View" />
+    </Grid>
+</UserControl>
