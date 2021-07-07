@@ -12,7 +12,6 @@
     dlg:DialogParticipation.Register="{Binding}"
     Background="{DynamicResource MaterialDesignPaper}"
     BorderThickness="1"
-    FocusManager.FocusedElement="{Binding ElementName=txtStaffCd}"
     FontFamily="pack:application,,,/MaterialDesignThemes.Wpf;conponent/Resources/Roboto/#Roboto"
     GlowBrush="{DynamicResource AccentColorBrush}"
     TextElement.FontSize="16"
